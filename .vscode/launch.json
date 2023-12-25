@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/githib_repos/CPP_Practice_23/Class/Simple_Class/Constructors",
-      "program": "d:/githib_repos/CPP_Practice_23/Class/Simple_Class/Constructors/build/Debug/outDebug",
+      "cwd": "d:/githib_repos/CPP_Practice_23/Class/OOPs",
+      "program": "d:/githib_repos/CPP_Practice_23/Class/OOPs/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
