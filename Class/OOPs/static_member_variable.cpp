@@ -46,7 +46,7 @@ int main()
     A a(55);
     a.display();
 
-    A::staticVar = 88 ; // defining once again outside of the class
+    A::staticVar = 88 ; // defining once again outside of the class , without accessing through object
 
     a.display();
 
