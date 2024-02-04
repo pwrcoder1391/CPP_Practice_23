@@ -57,6 +57,10 @@ int main()
     A <A<double>>obj3{"Pronnoy", {"Chowdhury", 55.66}};  // using user defined datatype here
 
     /*
+	Here the 1st object = "Pronnoy" --> is a string and 
+ 		 2nd object = "{"Chowdhury",55.66}" - is object type 'T' 
+    		This depends on the constructor init sequence , we can try to give as it is and check what will happen 
+    
     Same thing we can cascade call the user-defined object 
 
         So here we have defined -- A object inside A object 
@@ -73,7 +77,7 @@ int main()
     vector <A<int>>new_vec;
 
     /*adding elements*/
-    new_vec.push_back(A<int>("blah",55));   
+    new_vec.push_back(A<int>("blah",55));   // didnt use {} used ()
     new_vec.push_back(A<int>("bleh",54));   
     new_vec.push_back(A<int>("bloh",53));   
 
