@@ -4,6 +4,11 @@ basically creating a template class which has 2 inputs
 and then fitting it into multiple datatypes
     - primitive
     - user-defined 
+	
+ Class Template 
+		- So in Class template , we cannot have the class itself in a particular datatype -- ** the class is never of any datatype anyways 
+			- Rather we'll have template for the MEMBERs of the class 
+			- We can also have member function which can have the returning-datatype as the template datatype
 */
 #include<iostream>
 #include<string>
